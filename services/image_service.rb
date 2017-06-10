@@ -28,6 +28,6 @@ class ImageService
   end
 
   def image_store_path
-    'tmp/image_destination/'
+    ENV['IMAGE_STORE']
   end
 end
